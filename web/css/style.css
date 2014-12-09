@@ -1,0 +1,15 @@
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+.bubble_container{position: absolute; display: block; text-align: center; opacity: 1; cursor: pointer; color: #333333; margin-left: -25px; margin-top: -25px;}
+.bubble_container:hover{z-index: 100000;}
+.bubble1{background: url('../images/m1.png') no-repeat 0 0; width: 53px; height: 53px; line-height: 53px;}
+.bubble2{background: url('../images/m2.png') no-repeat 0 0; width: 56px; height: 56px; line-height: 56px;}
+.bubble3{background: url('../images/m3.png') no-repeat 0 0; width: 66px; height: 66px; line-height: 68px;}
+.bubble4{background: url('../images/m4.png') no-repeat 0 0; width: 78px; height: 78px; line-height: 81px;}
+.bubble5{background: url('../images/m5.png') no-repeat 0 0; width: 93px; height: 93px; line-height: 97px;}
+.map_search_ajax_loader{
+    position: absolute; bottom: 7px; left: 70px; z-index: 200;
+}
